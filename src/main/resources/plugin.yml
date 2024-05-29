@@ -1,0 +1,10 @@
+name: DoubleSlabMining
+version: '${project.version}'
+main: com.ashkiano.doubleslabmining.DoubleSlabMining
+api-version: 1.16
+authors: [ AshKiano ]
+description: Allows breaking double slabs into single slabs based on the player's hit location.
+permissions:
+  slabbreak.use:
+    description: Allows the player to break double slabs into single slabs.
+    default: op
